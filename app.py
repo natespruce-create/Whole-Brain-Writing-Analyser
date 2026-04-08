@@ -17,8 +17,8 @@ with col2:
     st.markdown("This tool will help change that. Simply paste in a letter, email, extract and hit Analyse and the wizard will give you:")
     st.markdown("  • A whole brain writing score")
     st.markdown("  • A breakdown of how your writing is reflects against each of the HBDI quadrants")
-    st.markdown("  • Some suggestions to to improve the whole brain appeal")
-    st.markdown("")
+    st.markdown("  • Some suggestions to improve the whole brain appeal")
+    st.markdown("  • A revised paragraph for the section that could most benefit")
     st.markdown("Make your emails, letters, proposals, reports and messages more balanced and effective")
 
 st.markdown("---")
