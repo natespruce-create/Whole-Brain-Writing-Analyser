@@ -15,7 +15,7 @@ with col2:
     st.markdown("We have all written something at some point that we thought was amazing and ... it didn't land.")
     st.markdown("One of the main reasons for this is the style it was written in didn't match how the audience needed to understand it.")
     st.markdown("This tool will help change that. Simply paste in a letter, email, extract and hit Analyse and the wizard will give you:")
-    st.markdown("  • A whole brain writing score")
+    st.markdown("  • A Whole-Brain writing score")
     st.markdown("  • A breakdown of how your writing is reflects against each of the HBDI quadrants")
     st.markdown("  • Some suggestions to improve the whole brain appeal")
     st.markdown("  • A revised paragraph for the section that could most benefit")
@@ -48,7 +48,7 @@ user_text = st.text_area(
     placeholder="Dear team,\n\nI wanted to follow up on the latest project update..."
 )
 
-if st.button("🔍 Analyse My Writing", type="primary", use_container_width=True):
+if st.button("🔍 Analyse ", type="primary", use_container_width=True):
     if len(user_text.strip()) < 50:
         st.error("Please paste at least 50 characters of text.")
     elif not api_key:
@@ -152,4 +152,4 @@ def create_writing_analysis_pdf(analysis, original_text):
         return bytes(pdf_output)
     return pdf_output
 
-st.caption("Whole-Brain Writing Analyser • Separate from Tender Tool")
+st.caption("Whole-Brain Writing Analyser • Value Shift")
