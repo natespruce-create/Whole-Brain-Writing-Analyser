@@ -12,6 +12,13 @@ with col1:
 
 with col2:
     st.title("🧠 Whole-Brain Writing Analyser")
+    st.markdown("We have all written something at some point that we thought was amazing and ... it didn't land.")
+    st.markdown("One of the main reasons for this is the style it was written in didn't match how the audience needed to understand it.")
+    st.markdown("This tool will help change that. Simply paste in a letter, email, extract and hit Analyse and the wizard will give you:")
+    st.markdown("A whole brain writing score")
+    st.markdown("A breakdown of how your writing is reflects against each of the HBDI quadrants")
+    st.markdown("Some suggestions to to improve the whole brain appeal")
+    st.markdown("")
     st.markdown("Make your emails, letters, proposals, reports and messages more balanced and effective")
 
 st.markdown("---")
